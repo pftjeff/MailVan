@@ -37,32 +37,32 @@ var myBarChart = new Chart(ctx, {
     datasets: [{
       label: "Mails",
       backgroundColor:[
-        "#4e73df", // Jan
-        "#1cc88a", // Feb
-        "#36b9cc", // Mar
-        "#f6c23e", // Apr
-        "#e74a3b", // May
-        "#858796", // Jun
-        "#fd7e14", // Jul
-        "#6f42c1", // Aug
-        "#d9534f", // Sep
-        "#5bc0de", // Oct
-        "#5a5c69", // Nov
-        "#17a2b8"  // Dec
+        "#008080", // Jan
+        "#BAEDBD", // Feb
+        "#1C1C1C", // Mar
+        "#B1E3FF", // Apr
+        "#A8C5DA", // May
+        "#A1E3CB", // Jun
+        "#95A4FC", // Jul
+        "#A1E3CB", // Aug
+        "#1C1C1C", // Sep
+        "#B1E3FF", // Oct
+        "#A8C5DA", // Nov
+        "#A1E3CB"  // Dec
       ],
       hoverBackgroundColor: [
-        "#2e59d9", // Jan
-        "#17a673", // Feb
-        "#2c9faf", // Mar
-        "#dda20a", // Apr
-        "#be2617", // May
-        "#6c757d", // Jun
-        "#e36209", // Jul
-        "#563d7c", // Aug
-        "#c9302c", // Sep
-        "#31b0d5", // Oct
-        "#343a40", // Nov
-        "#138496"  // Dec
+        "#008080", // Jan
+        "#BAEDBD", // Feb
+        "#1C1C1C", // Mar
+        "#B1E3FF", // Apr
+        "#A8C5DA", // May
+        "#A1E3CB", // Jun
+        "#95A4FC", // Jul
+        "#A1E3CB", // Aug
+        "#1C1C1C", // Sep
+        "#B1E3FF", // Oct
+        "#A8C5DA", // Nov
+        "#A1E3CB"  // Dec
       ],
       borderColor: "#4e73df",
       data: [4215, 5312, 6251, 7841, 9821, 14984,4215, 5312, 6251, 7841, 9821, 14984],

@@ -30,17 +30,17 @@ var myPieChart = new Chart(ctx, {
     legend: {
       display: false
     },
-    cutoutPercentage: 40,
+    cutoutPercentage: 50,
   },
 });
 var ctx = document.getElementById("myPieChart1");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["Akuse", "Tema", "Akosombo", "Kpone"],
     datasets: [{
-      data: [55, 30, 15],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
+      data: [40, 25, 20, 15],
+      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc', '#36454F'],
       hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
@@ -52,14 +52,14 @@ var myPieChart = new Chart(ctx, {
       bodyFontColor: "#858796",
       borderColor: '#dddfeb',
       borderWidth: 1,
-      xPadding: 15,
-      yPadding: 15,
+      xPadding: 10,
+      yPadding: 10,
       displayColors: false,
       caretPadding: 10,
     },
     legend: {
       display: false
     },
-    cutoutPercentage: 40,
+    cutoutPercentage: 50,
   },
 });

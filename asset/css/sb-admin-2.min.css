@@ -12093,7 +12093,7 @@ a:focus {
 .chart-pie {
     position: relative;
     height: 15rem;
-    width: 60%
+    width: 40%
 }
 
 @media (min-width:768px) {
